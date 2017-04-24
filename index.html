@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel2.css" rel="stylesheet">
+  </head>
+
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+<!--       <div class="container">
+ -->
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand-2" href="#">SEQUACIOUS</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Home</a></li> -->
+                <li><a href="#section-01" id="scrollToSection01">Our Team</a></li>
+                <li><a href="#section-02" id="scrollToSection02">Learn About Us</a></li>
+                <!--<li><a href="#section-03" id="scrollToSection03">Section 03/a></li>
+                <li><a href="#section-04" id="scrollToSection04">Section 04</a></li>-->
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      <!-- </div> -->
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/pexels-photo-88737.jpeg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>SEQUECIA.</h1>
+              <p>YOUR CHOICE, OUR MOVIES.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/02.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Your choices, our movies.</h1>
+              <p>Are you sick of the same old reccomended movies? We are too! That's why we have created Sequecia. Just by answering a simple question we are able to better choose the perfect movie for your current attitude and mood.</p>
+             <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/pexels-photo-30111.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>You Tell Us</h1>
+              <p>Yes you read it right. You tell us. Our mission is to pick the perfect movie for you. You tell us how your feeling and we will tell you what we think. We know, there's a million categegories to choose from and you looked through them all, but still nothing is standing out. Turn to us, and let us help you find the movie you've been looking for! </p>
+             <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" id="section-01">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/laryssa.jpg" alt="Laryssa Caye" width="140" height="140">
+          <h2>Laryssa Caye</h2>
+          <p>Founder and Head CEO of Sequacious.</br> Runs the shows. Looks best well choosing your movies. Proud User of Sequacius.</p>
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/alan.JPG" alt="Alan Green" width="140" height="140">
+          <h2>Alan Green</h2>
+          <p>Co-CEO. Social Media Boss. Creative Director.</br> Man of many hats. Loves Childeren films, and is a Proud Sequacious User. </p>
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/kylie.jpg" alt="Kylie Bates" width="140" height="140">
+          <h2>Kylie Bates</h2>
+          <p>Sales and Marketing Director. Tiny Genius.</br> Movie Enthusiast. Proud Sequacious User.</p>
+          <!--<p><a class="btn btn-default" href="#" ole="button">View details &raquo;</a></p>-->
+        </div>
+      </div>
+    </div>
+
+
+      <!-- START THE FEATURETTES -->
+
+    <div class="container sky-blue" id="section-02">
+      <div class="row featurette featurette-color">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="featurette-heading">SEQUECIA. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Sequecia is an easy to use link into your Netflix and Hulu accounts. With just the the answering of a simple mindless question the perfect movie will be calculated for you. Choosing a movie or TV show has never been easier. Laugh with your friends or answer by yourself, either way the next thing you watch your garenteed to love. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container white" id="section-03">
+      <div class="row featurette featurette-color">
+        <div class="col-md-8 col-md-offset-2">
+          <img src="images/sequecious_pg1actually.jpg" width="100%">
+            <img src="images/pg2_sequacious.jpg" width="100%">
+              <img src="images/page3_sequacious.jpg" width="100%">
+                <!--<img src="images/04.jpg" width="100%">
+                  <img src="images/05.jpg" width="100%">-->
+          <h2 class="featurette-heading">Simple. Fast. Proven. What's to lose? </h2>
+          <p class="lead">There, we have said it, it's easy to use, it's fast, we've proven it works and you're already paying for Netflix and Hulu so for no extra charges use Sequecia and get ready for a life changing experiace.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container light-gray" id="section-04">
+      <div class="row featurette featurette-color">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="featurette-heading">Nothing To Lose.</h2>
+          <p class="lead">Whether it is from the seat of a plane, from you computer at home or your cell phone on a bench before class Sequecia can locate that perfect movie for you. Answer a question based on your opionon and Sequecia begins her journey to locate your perfect movie. Your choices, Our movies. That easy.</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- /END THE FEATURETTES -->
+
+
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+      <footer class="footer-color">
+        <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 SEQUECIA ENTERPRISE &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms and Conditions</a></p>
+        </div>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/smoothscroll.js"></script>
+  </body>
+</html>
